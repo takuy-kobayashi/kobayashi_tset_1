@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>電話発信中...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    // ページが読み込まれた瞬間に電話発信
+    window.onload = function() {
+      window.location.href = "tel:0120911202";
+    };
+  </script>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      font-size: 18px;
+      color: #0073aa;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h2>電話を開始しています...</h2>
+  <p>自動で電話が始まらない場合は、以下のボタンをタップしてください。</p>
+  <a href="tel:0120911202">📞 電話をかける</a>
+</body>
+</html>
